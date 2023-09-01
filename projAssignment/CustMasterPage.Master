@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CustMasterPage.master.cs" Inherits="projAssignment.CustMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Blog</title>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+    <link rel="stylesheet" href="styles/socialMediaIcons.css"/>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <script src="javascript/JavaScript.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="body" onload="detectViewPort();" onresize="detectViewPort();">
+    <form id="form1" runat="server">
+        <div id="page">
+            <div class="header">
+                
+                <img src="/images/Logo.jpg" class="logoImage" alt= "The webiste i got image from https://app.logo.com/business-name"/>
+                <h1 id="headH1">JFR Electical Equipment</h1>
+                <p id="headPara">Brings Gadgets Everywhere we go</p>
+
+            </div>
+            <div class="topnav" id="myTopnav">
+                <%-- Home --%>
+                <a <asp:HyperLink ID="hylHome" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink></a>
+                <%-- Products --%>
+                <a <asp:HyperLink ID="hylProducts" runat="server" NavigateUrl="~/Products.aspx">Products</asp:HyperLink></a>
+                <%-- Blog --%>
+                <a <asp:HyperLink ID="hylBlog"  runat="server" NavigateUrl="~/Blog.aspx">Blog</asp:HyperLink></a>
+                <%-- Jobs Available --%>
+                <a <asp:HyperLink ID="hylJobs" runat="server" NavigateUrl="~/Jobs.aspx">Jobs Available</asp:HyperLink></a>
+                <%-- Contact Us --%>
+                <a <asp:HyperLink ID="hylContactUs" runat="server" NavigateUrl="~/ContactUs.aspx">Contact Us</asp:HyperLink></a>
+                <%-- About Us --%>
+                <a <asp:HyperLink ID="hylAboutUs" runat="server" NavigateUrl="~/AboutUs.aspx">About Us</asp:HyperLink></a>
+                <%-- Admin --%>
+                <asp:HyperLink ID="hylAdmin" runat="server" NavigateUrl="~/SecureAdmin/Admin.aspx">Admin</asp:HyperLink>
+                <%-- Boss --%>
+                <asp:HyperLink ID="hylBoss" runat="server" NavigateUrl="~/SecureBoss/Boss.aspx">Boss</asp:HyperLink>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                <asp:ContentPlaceHolder ID="NavLink" runat="server">
+                </asp:ContentPlaceHolder>
+                <%-- Basket Icon --%>
+                <a <asp:HyperLink ID="hylBasket" runat="server" NavigateUrl="~/Basket.aspx" class="fa fa-shopping-cart"></asp:HyperLink></a>
+                <%-- Login Button --%>
+                <a <asp:LoginStatus ID="LoginStatus1" runat="server" /></a>
+            </div>
+            
+           
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer" class="footer">
+                
+                <a href="http://facebook.com" class="fa fa-facebook" ></a>
+				<a href="https://www.instagram.com/" class="fa fa-instagram" ></a>
+				<a href="https://twitter.com/" class="fa fa-twitter"></a>
+				<a href="https://www.snapchat.com/l/en-gb/" class="fa fa-snapchat-ghost"></a>
+				<a href="https://www.linkedin.com/home/?originalSubdomain=uk" class="fa fa-linkedin"></a>
+				<p id="copyright"> Copyright &copy; 2023 JFR Electrical Equipment &reg; </p>
+            </div>
+            <div >
+            Screen width <span id="vWidth">???</span>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

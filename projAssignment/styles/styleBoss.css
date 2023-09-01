@@ -1,0 +1,18 @@
+﻿body {
+}
+
+#homeContent {
+    width: 95%;
+    margin: auto;
+}
+
+#tabIN {
+    width: 95%;
+    margin: auto;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a#hylBoss {
+    background-color: #04AA6D;
+    color: white;
+}

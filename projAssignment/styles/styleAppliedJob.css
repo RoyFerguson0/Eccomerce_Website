@@ -1,0 +1,20 @@
+﻿body {
+}
+
+#homeContent {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-size: xx-large;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#tabIN {
+    width: 95%;
+    margin: auto;
+}

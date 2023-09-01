@@ -1,0 +1,124 @@
+﻿body {
+}
+
+.DisplayedProducts {
+    margin-top: 24px;
+}
+
+#homeContent {
+    width: 95%;
+    margin: auto;
+}
+
+#tabIN {
+    width: 95%;
+    margin: auto;
+}
+
+.headCentered{
+    text-align:center;
+    font-weight:bold;
+    font-style:italic;
+}
+/* Add an active class to highlight the current page */
+.topnav a#hylProducts {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.prod {
+    float: left;
+    margin: auto;
+    width: 30%;
+    margin-bottom:3%;
+}
+#product1 {
+    
+    
+}
+#product2 {
+    
+    margin-left: 3%;
+}
+#product3 {
+    
+    margin-left: 3%;
+}
+.productImage {
+    width: 70%;
+    height: auto;
+}
+
+.productTitle {
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #CCAFA5;
+    text-align: center;
+}
+
+.productImages {
+    background-color: #DCD2CC;
+    text-align: center;
+}
+
+.productPrice {
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #CCAFA5;
+    text-align: center;
+}
+
+
+
+.productInfo {
+}
+.addToBacket {
+    width: 97%;
+    padding-bottom:5px;
+    padding-right:3%;
+    background-color: #CCAFA5;
+    text-align:right;
+
+}
+#lbnBasket {
+    float: right;
+}
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////
+                    Responsive Web 
+   ////////////////////////////////////////////////////////
+*/
+/* The Most Zoomed in View E.g. Phone Style*/
+@media screen and (max-width: 630px) and (min-width: 1px) {
+    .productTitle {
+        height: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #CCAFA5;
+        font-size:small;
+    }
+    
+}
+
+/* The medium screen view - E.g. Laptops View*/
+@media screen and (max-width: 900px) and (min-width: 631px) {
+    .productTitle {
+        height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #CCAFA5;
+    }
+}
+
+/* The biggest screen view - E.g. Desktop View*/
+@media screen and (max-width: 1500px) and (min-width: 901px) {
+}

@@ -1,0 +1,63 @@
+﻿body {
+}
+
+#homeContent {
+    width: 95%;
+    margin: auto;
+}
+
+
+#ContactTitle {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#ContactDetails {
+    width: 80%;
+    margin: auto;
+}
+
+#locationTitle {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#map{
+    text-align:center;
+    margin-bottom:10px;
+}
+.TBBorder {
+    width: 70%;
+    margin:auto;
+    border: 1px solid #000000;
+    text-align:center;
+}
+
+.TBTitle {
+    width: 28%;
+    text-align: center;
+    font-weight:bold;
+    font-size:medium;
+    font-style: italic;
+}
+.TBDetails {
+    width: 28%;
+    text-align: center;
+}
+
+#tabIN {
+    width: 95%;
+    margin: auto;
+}
+
+
+
+
+/* Add an active class to highlight the current page */
+.topnav a#hylContactUs {
+    background-color: #04AA6D;
+    color: white;
+}
+

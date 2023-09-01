@@ -1,0 +1,19 @@
+﻿body {
+}
+
+/* Add an active class to highlight the current page */
+.topnav a#hylBlog {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#BlogTitle{
+    text-align:center;
+
+}
+#BlogContent{
+    text-align:center;
+    margin-bottom:15px;
+    
+}
+

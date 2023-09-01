@@ -1,0 +1,55 @@
+﻿body {
+}
+
+#homeContent {
+    width: 95%;
+    margin: auto;
+}
+
+#tabIN {
+    width: 95%;
+    margin: auto;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a#hylAboutUs {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+.content{
+    margin-top:5px;
+    width:70%;
+    margin:auto;
+
+}
+
+.contentLeft{
+    float:left;
+    width:46%;
+    padding-left:2%;
+    padding-right:2%;
+    text-align:center;
+}
+.contentRight {
+    float: left;
+    width: 46%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align:center;
+}
+.contentQuote {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom:10px;
+    font-style:italic;
+    font-size:large;
+    text-align:center;
+}
